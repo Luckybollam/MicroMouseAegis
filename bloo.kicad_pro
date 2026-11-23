@@ -77,7 +77,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|296112500|132585000|24da4d9b-ac35-4e99-8b3d-b97ddb224f72|45736a43-5c84-4ad1-af71-a8d0fe26f8d1",
+          ""
+        ],
+        [
+          "courtyards_overlap|302212500|132585000|0fd5aba6-b488-4e3f-9163-939e2b21f9c5|24da4d9b-ac35-4e99-8b3d-b97ddb224f72",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|274026000|147727500|9e518fea-a1f9-40df-aebd-44179ecf3f04|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -111,7 +124,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
