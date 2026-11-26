@@ -83,6 +83,10 @@
           ""
         ],
         [
+          "courtyards_overlap|296835000|134885000|166270da-48f0-4a49-a68d-48ba0cb0d950|24da4d9b-ac35-4e99-8b3d-b97ddb224f72",
+          ""
+        ],
+        [
           "courtyards_overlap|302212500|132585000|0fd5aba6-b488-4e3f-9163-939e2b21f9c5|24da4d9b-ac35-4e99-8b3d-b97ddb224f72",
           ""
         ],
@@ -544,7 +548,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -555,11 +559,29 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.25,
+        "name": "Battery",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.25,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -567,7 +589,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Battery",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Battery",
+        "pattern": "Net-(BT1-+)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3VA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "M*_OUT_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
