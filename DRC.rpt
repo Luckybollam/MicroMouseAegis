@@ -1,10 +1,10 @@
 ** Drc report for bloo.kicad_pcb **
-** Created on 2026-11-25T17:33:11 **
+** Created on 2026-11-25T17:36:35 **
 ** Report includes: Errors **
 
 ** Found 0 DRC violations **
 
-** Found 91 unconnected pads **
+** Found 89 unconnected pads **
 [unconnected_items]: Missing connection between items
     Local override; error
     @(266.7500 mm, 167.7000 mm): Pad 1 [GND] of R13 on F.Cu
@@ -232,7 +232,7 @@
 [unconnected_items]: Missing connection between items
     Local override; error
     @(305.6100 mm, 134.3800 mm): PTH pad 34 [RECEIV_1] of U1
-    @(280.0284 mm, 180.5611 mm): Track [RECEIV_1] on F.Cu, length 2.3826 mm
+    @(282.4111 mm, 180.5611 mm): Track [RECEIV_1] on F.Cu, length 0.1611 mm
 [unconnected_items]: Missing connection between items
     Local override; error
     @(336.0900 mm, 134.3800 mm): PTH pad 22 [EMIT_4] of U1
@@ -244,7 +244,7 @@
 [unconnected_items]: Missing connection between items
     Local override; error
     @(290.3700 mm, 149.6200 mm): PTH pad 1 [EMIT_1] of U1
-    @(266.5250 mm, 171.0250 mm): Track [EMIT_1] on F.Cu, length 0.3182 mm
+    @(266.7500 mm, 170.8000 mm): Pad 2 [EMIT_1] of R13 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
     @(292.9100 mm, 149.6200 mm): PTH pad 2 [M2_FWD] of U1
@@ -303,16 +303,8 @@
     @(331.6000 mm, 127.6000 mm): Pad 3 [M2_ENC_A] of M2 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(320.0000 mm, 95.8900 mm): Track [BUTTON_2] on F.Cu, length 0.2828 mm
+    @(320.2000 mm, 96.0900 mm): Pad 2 [BUTTON_2] of R9 on F.Cu
     @(331.0100 mm, 149.6200 mm): PTH pad 17 [BUTTON_2] of U1
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(280.7300 mm, 99.4400 mm): Pad 2 [BUTTON] of R24 on F.Cu
-    @(282.5850 mm, 99.7650 mm): Pad 2 [BUTTON] of S5 on F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(282.5850 mm, 99.7650 mm): Pad 2 [BUTTON] of S5 on F.Cu
-    @(282.5850 mm, 95.6150 mm): Pad 1 [BUTTON] of S5 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
     @(333.5500 mm, 134.3800 mm): PTH pad 23 [BUTTON] of U1
@@ -335,7 +327,7 @@
     @(320.8500 mm, 134.3800 mm): PTH pad 28 [M1_SPD] of U1
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(356.1539 mm, 173.9039 mm): Track [RECEIV_3] on F.Cu, length 0.0197 mm
+    @(356.1400 mm, 173.8900 mm): Pad 2 [RECEIV_3] of R4 on F.Cu
     @(315.7700 mm, 134.3800 mm): PTH pad 30 [RECEIV_3] of U1
 [unconnected_items]: Missing connection between items
     Local override; error
@@ -348,10 +340,10 @@
 [unconnected_items]: Missing connection between items
     Local override; error
     @(300.5300 mm, 134.3800 mm): PTH pad 36 [EMIT_2] of U1
-    @(289.5500 mm, 170.8000 mm): Track [EMIT_2] on F.Cu, length 0.0354 mm
+    @(289.5250 mm, 170.7750 mm): Pad 2 [EMIT_2] of R14 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(354.1500 mm, 143.8800 mm): Track [BT_RESET] on F.Cu, length 1.9800 mm
+    @(354.1500 mm, 141.9000 mm): Track [BT_RESET] on F.Cu, length 1.1455 mm
     @(307.6200 mm, 97.1125 mm): Pad 2 [BT_RESET] of D9 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
