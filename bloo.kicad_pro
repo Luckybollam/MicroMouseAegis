@@ -170,7 +170,7 @@
         "allow_blind_buried_vias": true,
         "allow_microvias": true,
         "max_error": 0.005,
-        "min_clearance": 0.25,
+        "min_clearance": 0.2,
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -178,7 +178,7 @@
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -569,16 +569,25 @@
         "clearance": 0.25,
         "name": "Battery",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "tuning_profile": ""
       },
       {
         "clearance": 0.25,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": ""
@@ -613,6 +622,10 @@
       {
         "netclass": "Power",
         "pattern": "M*_OUT_*"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND"
       }
     ]
   },
@@ -623,7 +636,7 @@
       "netlist": "mouse4.net",
       "plot": "production/plots/",
       "pos_files": "production/assembly/Footprint Positions/",
-      "specctra_dsn": "",
+      "specctra_dsn": "bloo.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
